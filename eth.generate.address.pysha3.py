@@ -14,7 +14,7 @@ with open('keys.txt') as fp:
     print("encoded_key: ", encoded_key.decode())
     
     striped_key = encoded_key.strip()
-    print("striped_key: ",striped_key.decode())
+    print("striped_key: ",striped_key.strip())
 
     cnt = 1
     while key:
